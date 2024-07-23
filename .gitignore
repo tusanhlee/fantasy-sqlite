@@ -1,24 +1,60 @@
-# Compiled class file
-*.class
-
-# Log file
+HELP.md
+.gradle
+build/
+bin/
+**/src/main/generated/**
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+*.pid
+classes/
+/logs/
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+*.gz
 *.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/src/main/generated/
+
+*.hprof
+
+.DS_Store
+
+.temp-*
+
+/src/main/resources/application-developer.properties
+/src/main/resources/application-developer.yml
+/src/main/resources/application-anhlt.properties
+/src/main/resources/application-vietnv.properties
+/src/main/resources/application-local.properties
+/src/main/resources/application-anhlt.properties
+/src/main/resources/application-local2.properties
+/src/main/resources/application-emoldino.properties
+
+src/test/java/**/**DeveloperTest.java
+
+node_modules/
